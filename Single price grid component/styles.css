@@ -4,8 +4,18 @@
     box-sizing: border-box;
 }
 
-:root {
+html {
+    font-size: 10px;
+}
 
+:root {
+    /* Primary colours */
+    --cyan: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+
+    /* Neutral colours */
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
 }
 
 .container {
