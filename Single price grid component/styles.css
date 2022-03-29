@@ -1,16 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 10px;
-}
-
 :root {
     /* Primary colours */
     --cyan: hsl(179, 62%, 43%);
+    --cyan2: hsl(179, 62%, 48%);
     --brightYellow: hsl(71, 73%, 54%);
 
     /* Neutral colours */
@@ -18,37 +9,81 @@ html {
     --grayishBlue: hsl(218, 22%, 67%);
 }
 
-.container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-size: 10px;
+    font-family: "Karla", sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+p, span {
+    font-weight: 400;
+}
+
+.container {
+    background: var(--lightGray);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-
+    width: 50%;
 }
 
 .card-top {
-
+    background: #ffffff;
 }
-.card-bottom {
 
+.card-top h1 {
+    color: var(--cyan);
+}
+
+.card-top h2 {
+    color: var(--brightYellow);
+}
+
+.card-top p {
+    color: var(--grayishBlue);
 }
 
 .card-left {
-
+    background: var(--cyan);
 }
 
-.card-right {
-
+.card-left h2 {
+    color: #ffffff;
 }
 
 .price {
-
+    color: var(--lightGray);
 }
 
 .amount {
-
+    color: #ffffff;
 }
 
 .button {
+    background: var(--brightYellow);
+    color: white;
+    border: none;
+    text-align: center;
+}
 
+.card-right {
+    background: var(--cyan2);
+    color: var(--lightGray);
+}
+
+.card-right h2 {
+    color: #ffffff;
 }
