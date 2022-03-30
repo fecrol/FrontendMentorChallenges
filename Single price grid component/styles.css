@@ -139,3 +139,64 @@ p, span {
 .card-right ul li {
     margin: 0.3rem 0;
 }
+
+@media (min-width: 801px) {
+    .card {
+        width: 50%;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-top {
+        height: 50%;
+        flex: 0.5;
+    }
+
+    .card-bottom {
+        display: flex;
+        height: 50%;
+        flex: 0.5;
+    }
+
+    .card-left {
+        width: 50%;
+        border-radius: 0 0 0 7px;
+        
+    }
+
+    .card-right {
+        width: 50%;
+        border-radius: 0 0 7px 0;
+    }
+}
+
+@media (min-width: 1370px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .price {
+        font-size: 1.3rem;
+    }
+
+    .amount {
+        font-size: 2.2rem;
+    }
+    
+    .card-right ul {
+        font-size: 1.3rem;
+    }
+
+    .button {
+        font-size: 1.3rem;
+    }
+}
