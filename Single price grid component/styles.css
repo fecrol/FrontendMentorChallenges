@@ -22,10 +22,20 @@ body {
 
 h1, h2 {
     font-weight: 700;
+    padding: 0.75rem 0 0.75rem 0;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 p, span {
     font-weight: 400;
+    font-size: 0.9rem;
 }
 
 .container {
@@ -37,11 +47,16 @@ p, span {
 }
 
 .card {
-    width: 50%;
+    width: 90%;
+    margin: 2rem 0 2rem 0;
+    border-radius: 7px;
+    box-shadow: 0 0 1rem #444444;
 }
 
 .card-top {
     background: #ffffff;
+    padding: 1rem;
+    border-radius: 7px 7px 0 0;
 }
 
 .card-top h1 {
@@ -54,22 +69,36 @@ p, span {
 
 .card-top p {
     color: var(--grayishBlue);
+    padding: 0.75rem 0 1rem 0;
+    line-height: 1.5rem;
 }
 
 .card-left {
     background: var(--cyan);
+    padding: 1rem;
 }
 
-.card-left h2 {
+.card-left h1 {
     color: #ffffff;
 }
 
+.card-left p {
+    color: #ffffff;
+    padding: 0.75rem 0 0.75rem 0;
+}
+
 .price {
+    display: flex;
+    align-items: center;
     color: var(--lightGray);
+    font-size: 0.9rem;
 }
 
 .amount {
     color: #ffffff;
+    font-size: 2rem;
+    padding-right: 0.5rem;
+    font-weight: 700;
 }
 
 .button {
@@ -77,13 +106,36 @@ p, span {
     color: white;
     border: none;
     text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 7px;
+    box-shadow: 0 0 1rem #666666;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .card-right {
     background: var(--cyan2);
     color: var(--lightGray);
+    padding: 1rem;
+    border-radius: 0 0 7px 7px;
 }
 
-.card-right h2 {
+.card-right h1 {
     color: #ffffff;
+}
+
+.card-right ul {
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 0 0.75rem 0;
+}
+
+.card-right ul li {
+    margin: 0.3rem 0;
 }
