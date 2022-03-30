@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop.png) ![](./screenshots/mobile.png)
+![](./screenshots/desktop.PNG) ![](./screenshots/mobile.PNG)
 
 ## My process
 
@@ -77,4 +77,4 @@ Solution for assigning height to a child element where the parent element only h
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=12783s) - This CSS course helped me to learn and understand the basics of Flexbox and revise other CSS concepts.
+- [CSS Tutorial - Zero to Hero (Complete Course)](https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=12783s) - This CSS course helped me to learn and understand the basics of Flexbox and revise other CSS concepts.
