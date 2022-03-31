@@ -50,7 +50,7 @@ Users should be able to:
 Solution for assigning height to a child element where the parent element only has min-height specified:
 
 ```css
-.card {
+    .card {
         width: 50%;
         min-height: 70vh;
         display: flex;
