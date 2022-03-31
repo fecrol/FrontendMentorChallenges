@@ -140,7 +140,7 @@ p, span {
     margin: 0.3rem 0;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 990px) {
     .card {
         width: 50%;
         min-height: 70vh;
@@ -171,9 +171,9 @@ p, span {
     }
 }
 
-@media (min-width: 1370px) {
+@media (min-width: 1500px) {
     h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     h2 {
@@ -184,6 +184,10 @@ p, span {
         font-size: 1.3rem;
     }
 
+    .card-top p {
+        line-height: 2.2rem;
+    }
+    
     .price {
         font-size: 1.3rem;
     }
